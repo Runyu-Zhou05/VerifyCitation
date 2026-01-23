@@ -107,8 +107,8 @@ python run.py input.bib -g
 
 2. **Citation Validation**  
    Each entry is verified by searching:
-   - **DOI databases** for metadata
-   - **Google Scholar** (if enabled) for additional context
+   - Retrieving ground-truth bibtex from `doi.org`
+   - Searching on `Google Scholar` if unable to get DOI
 
 3. **API Configuration**  
    When Google Scholar verification is required, you will be prompted for a SerpAPI key.  
