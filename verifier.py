@@ -157,7 +157,6 @@ def verify_entry(entry: dict) -> Tuple[str, str]:
             return 'attention', f'Failed to retrieve BibTeX from DOI {doi}.'
         return compare_entries(entry, doibib)
     else:
-        return 'attention', f'Cannot get DOI: {doi}\n'
         return verify_entry_via_google(entry)
 
 if __name__ == "__main__":

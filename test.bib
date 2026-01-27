@@ -1,342 +1,308 @@
-@inproceedings{ouyang2022instructgpt,
-  title={Training language models to follow instructions with human feedback},
-  author={Ouyang, Long and Wu, Jeff and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll L. and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul and Leike, Jan and Lowe, Ryan},
-  booktitle={NeurIPS},
-  year={2022},
-  url={https://arxiv.org/abs/2203.02155}
-}
-
-@inproceedings{rafailov2023dpo,
-  title={Direct Preference Optimization: Your Language Model is Secretly a Reward Model},
-  author={Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Ermon, Stefano and Manning, Christopher D. and Finn, Chelsea},
-  booktitle={NeurIPS},
-  year={2023},
-  url={https://arxiv.org/abs/2305.18290}
-}
-
-@article{bai2022constitutional,
-  title={Constitutional ai: Harmlessness from ai feedback},
-  author={Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and others},
-  journal={arXiv preprint arXiv:2212.08073},
-  year={2022},
-  url={https://arxiv.org/abs/2212.08073}
-}
-
-% Verifiable-reward RL (code/math) and GRPO
-@inproceedings{le2022coderl,
-  title={CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning},
-  author={Le, Hung and Wang, Yue and Gotmare, Akhilesh D. and Savarese, Silvio and Hoi, Steven C.H.},
-  booktitle={NeurIPS},
-  year={2022},
-  url={https://arxiv.org/abs/2207.01780}
-}
-
-@misc{deepseekmath2024,
-  title={DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models}, 
-  author={Zhihong Shao and Peiyi Wang and Qihao Zhu and Runxin Xu and Junxiao Song and Xiao Bi and Haowei Zhang and Mingchuan Zhang and Y. K. Li and Y. Wu and Daya Guo},
-  year={2024},
-  eprint={2402.03300},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2402.03300}, 
-}
-
-@article{raina2024llmjudge,
-  title={Is llm-as-a-judge robust? investigating universal adversarial attacks on zero-shot llm assessment},
-  author={Raina, Vyas and Liusie, Adian and Gales, Mark},
-  journal={arXiv preprint arXiv:2402.14016},
-  year={2024}
-}
-
-@article{chen2024humansorllmsjudge,
-  title={Humans or llms as the judge? a study on judgement biases},
-  author={Chen, Guiming Hardy and Chen, Shunian and Liu, Ziche and Jiang, Feng and Wang, Benyou},
-  journal={arXiv preprint arXiv:2402.10669},
-  year={2024}
-}
-
-% Self-training / self-reward / reasoning bootstrapping
-@inproceedings{wang2022selfinstruct,
-  title={Self-Instruct: Aligning Language Models with Self-Generated Instructions},
-  author={Wang, Yizhong and Kordi, Yeganeh and Mishra, Swaroop and Liu, Alisa and Smith, Noah A. and Khashabi, Daniel and Hajishirzi, Hannaneh},
-  booktitle={ACL},
-  year={2023},
-  url={https://arxiv.org/abs/2212.10560}
-}
-
-@inproceedings{zelikman2022star,
-  title={{STaR}: Bootstrapping Reasoning with Reasoning},
-  author={Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah D.},
-  booktitle={NeurIPS},
-  year={2022},
-  url={https://arxiv.org/abs/2203.14465}
-}
-
-@inproceedings{shinn2023reflexion,
-  title={Reflexion: Language Agents with Verbal Reinforcement Learning},
-  author={Shinn, Noah and Cassano, Federico and Berman, Edward and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
-  booktitle={NeurIPS},
-  year={2023},
-  url={https://arxiv.org/abs/2303.11366}
-}
-
-@inproceedings{wang2023selfconsistency,
-  title={Self-Consistency Improves Chain of Thought Reasoning in Language Models},
-  author={Wang, Xuezhi and others},
+@inproceedings{lightman2023letsgsm,
+  title={Let’s Verify Step by Step},
+  author={Lightman, H. and others},
   booktitle={ICLR},
-  year={2023},
-  url={https://arxiv.org/abs/2203.11171}
-}
-
-% SSL in language
-@inproceedings{devlin2019bert,
-  title={{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding},
-  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  booktitle={NAACL},
-  year={2019},
-  url={https://arxiv.org/abs/1810.04805}
-}
-
-@inproceedings{lewis2020bart,
-  title={{BART}: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension},
-  author={Lewis, Mike and Liu, Yinhan and Goyal, Naman and Ghazvininejad, Marjan and Mohamed, Abdelrahman and Levy, Omer and Stoyanov, Ves and Zettlemoyer, Luke},
-  booktitle={ACL},
-  year={2020},
-  url={https://arxiv.org/abs/1910.13461}
-}
-
-@article{raffel2020t5,
-  title={Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer},
-  author={Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J.},
-  journal={JMLR},
-  year={2020},
-  url={https://arxiv.org/abs/1910.10683}
-}
-
-@inproceedings{chen2024maskedthought,
-  title={Masked Thought: Simply Masking Partial Reasoning Steps Can Improve Mathematical Reasoning Learning of Language Models},
-  author={Chen, Changyu and Wang, Xiting and Lin, Ting-En and Lv, Ang and Wu, Yuchuan and Gao, Xin and Wen, Ji-Rong and Yan, Rui and Li, Yongbin},
-  booktitle={ACL},
-  year={2024},
-  url={https://arxiv.org/abs/2403.02178}
-}
-
-% SSL in vision
-@inproceedings{gidaris2018rotnet,
-  title={Unsupervised Representation Learning by Predicting Image Rotations},
-  author={Gidaris, Spyros and Singh, Praveer and Komodakis, Nikos},
-  booktitle={ICLR},
-  year={2018},
-  url={https://arxiv.org/abs/1803.07728}
-}
-
-@inproceedings{noroozi2016jigsaw,
-  title={Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles},
-  author={Noroozi, Mehdi and Favaro, Paolo},
-  booktitle={ECCV},
-  year={2016},
-  url={https://arxiv.org/abs/1603.09246}
-}
-
-@inproceedings{doersch2015context,
-  title={Unsupervised Visual Representation Learning by Context Prediction},
-  author={Doersch, Carl and Gupta, Abhinav and Efros, Alexei A.},
-  booktitle={ICCV},
-  year={2015},
-  url={https://arxiv.org/abs/1505.05192}
-}
-
-@inproceedings{chen2020simclr,
-  title={A Simple Framework for Contrastive Learning of Visual Representations},
-  author={Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
-  booktitle={ICML},
-  year={2020},
-  url={https://arxiv.org/abs/2002.05709}
-}
-
-@inproceedings{he2020moco,
-  title={Momentum Contrast for Unsupervised Visual Representation Learning},
-  author={He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross},
-  booktitle={CVPR},
-  year={2020},
-  url={https://arxiv.org/abs/1911.05722}
-}
-
-@inproceedings{grill2020byol,
-  title={Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning},
-  author={Grill, Jean-Bastien and others},
-  booktitle={NeurIPS},
-  year={2020},
-  url={https://arxiv.org/abs/2006.07733}
-}
-
-@inproceedings{caron2021dino,
-  title={Emerging Properties in Self-Supervised Vision Transformers},
-  author={Caron, Mathilde and Touvron, Hugo and Misra, Ishan and J{\'e}gou, Herv{\'e} and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand},
-  booktitle={ICCV},
-  year={2021},
-  url={https://arxiv.org/abs/2104.14294}
-}
-
-@inproceedings{he2022mae,
-  title={Masked Autoencoders Are Scalable Vision Learners},
-  author={He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Doll{\'a}r, Piotr and Girshick, Ross},
-  booktitle={CVPR},
-  year={2022},
-  url={https://arxiv.org/abs/2111.06377}
-}
-
-% Vision--language
-@inproceedings{radford2021clip,
-  title={Learning Transferable Visual Models From Natural Language Supervision},
-  author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya},
-  booktitle={ICML},
-  year={2021},
-  url={https://arxiv.org/abs/2103.00020}
-}
-
-@inproceedings{li2021albef,
-  title={Align before Fuse: Vision and Language Representation Learning with Momentum Distillation},
-  author={Li, Junnan and Selvaraju, Ramprasaath R. and Gotmare, Akhilesh D. and Joty, Shafiq and Xiong, Caiming and Hoi, Steven},
-  booktitle={NeurIPS},
-  year={2021},
-  url={https://arxiv.org/abs/2107.07651}
-}
-
-% Graph SSL
-@inproceedings{hu2019pretrainGNN,
-  title={Strategies for Pre-training Graph Neural Networks},
-  author={Hu, Weihua and Liu, Bowen and Gomes, Joseph and Zitnik, Marinka and Liang, Percy and Pande, Vijay and Leskovec, Jure},
-  booktitle={ICLR},
-  year={2020},
-  url={https://arxiv.org/abs/1905.12265}
-}
-
-@article{you2020graphcl,
-  title={Graph contrastive learning with augmentations},
-  author={You, Yuning and Chen, Tianlong and Sui, Yongduo and Chen, Ting and Wang, Zhangyang and Shen, Yang},
-  journal={Advances in neural information processing systems},
-  volume={33},
-  pages={5812--5823},
-  year={2020}
-}
-
-@inproceedings{hou2022graphmae,
-  title={GraphMAE: Self-Supervised Masked Graph Autoencoders},
-  author={Hou, Zhenyu and Liu, Xiao and Cen, Yukuo and Dong, Yuxiao and Yang, Hongxia and Wang, Chunjie and Tang, Jie},
-  booktitle={KDD},
-  year={2022},
-  url={https://arxiv.org/abs/2205.10803}
-  
-}
-
-% Reinforced pre-training
-% THE FOLLOWING ENTRY IS A HALLUCINATED CITATION!
-@article{liu2025rpt,
-  title={RPT: Reinforced Pre-Training of Large Language Models},
-  author={Liu, Xiaodong and others},
-  journal={arXiv:2505.07185},
-  year={2025},
-  url={https://arxiv.org/abs/2505.07185}
-}
-
-@article{fu2025hidden,
-  title={Hidden in plain sight: VLMs overlook their visual representations},
-  author={Fu, Stephanie and Bonnen, Tyler and Guillory, Devin and Darrell, Trevor},
-  journal={arXiv preprint arXiv:2506.08008},
-  year={2025}
-}
-
-
-@inproceedings{tong2024cambrian,
-  title={Cambrian-1: A fully open, vision-centric exploration of multimodal llms},
-  author={Tong, Peter and Brown, Ellis and Wu, Penghao and Woo, Sanghyun and IYER, Adithya Jairam Vedagiri and Akula, Sai Charitha and Yang, Shusheng and Yang, Jihan and Middepogu, Manoj and Wang, Ziteng and others},
-  booktitle={NeurIPS},
-  year={2024}
-}
-
-@inproceedings{fu2024blink,
-  title={Blink: Multimodal large language models can see but not perceive},
-  author={Fu, Xingyu and Hu, Yushi and Li, Bangzheng and Feng, Yu and Wang, Haoyu and Lin, Xudong and Roth, Dan and Smith, Noah A and Ma, Wei-Chiu and Krishna, Ranjay},
-  booktitle={ECCV},
-  year={2024},
-}
-
-@inproceedings{jian2025lookagainthinkslowly,
-      title={Look Again, Think Slowly: Enhancing Visual Reflection in Vision-Language Models}, 
-      author={Pu Jian and Junhong Wu and Wei Sun and Chen Wang and Shuo Ren and Jiajun Zhang},
-      year={2025},
-      booktitle={EMNLP}
-}
-
-
-@article{schulman2017proximal,
-  title={Proximal policy optimization algorithms},
-  author={Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg},
-  journal={arXiv preprint arXiv:1707.06347},
-  year={2017}
-}
-
-@inproceedings{imagenet,
-  author={Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Kai Li and Li Fei-Fei},
-  booktitle={CVPR}, 
-  title={ImageNet: A large-scale hierarchical image database}, 
-  year={2009}
-}
-
-
-@article{bai2025qwen2,
-  title={Qwen2. 5-vl technical report},
-  author={Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and others},
-  journal={arXiv preprint arXiv:2502.13923},
-  year={2025}
-}
-
-@inproceedings{duan2024vlmevalkit,
-  title={Vlmevalkit: An open-source toolkit for evaluating large multi-modality models},
-  author={Duan, Haodong and Yang, Junming and Qiao, Yuxuan and Fang, Xinyu and Chen, Lin and Liu, Yuan and Dong, Xiaoyi and Zang, Yuhang and Zhang, Pan and Wang, Jiaqi and others},
-  booktitle={ACM MM},
-  year={2024}
-}
-
-@article{li2023seed,
-  title={Seed-bench: Benchmarking multimodal llms with generative comprehension},
-  author={Li, Bohao and Wang, Rui and Wang, Guangzhi and Ge, Yuying and Ge, Yixiao and Shan, Ying},
-  journal={arXiv preprint arXiv:2307.16125},
   year={2023}
 }
-
-@inproceedings{liu2024mmbench,
-  title={Mmbench: Is your multi-modal model an all-around player?},
-  author={Liu, Yuan and Duan, Haodong and Zhang, Yuanhan and Li, Bo and Zhang, Songyang and Zhao, Wangbo and Yuan, Yike and Wang, Jiaqi and He, Conghui and Liu, Ziwei and others},
-  booktitle={ECCV},
-  year={2024},
+@software{Kydlicek_Math-Verify_Math_Verification,
+author = {Kydlíček, Hynek},
+license = {Apache-2.0},
+title = {{Math-Verify: Math Verification Library}},
+url = {https://github.com/huggingface/math-verify},
+version = {0.6.1},
+year={2025}
 }
-
-@article{jin2020self,
-  title={Self-supervised learning on graphs: Deep insights and new direction},
-  author={Jin, Wei and Derr, Tyler and Liu, Haochen and Wang, Yiqi and Wang, Suhang and Liu, Zitao and Tang, Jiliang},
-  journal={arXiv preprint arXiv:2006.10141},
-  year={2020}
+@article{yu2025rlpr,
+  title={RLPR: Extrapolating RLVR to General Domains without Verifiers},
+  author={Yu, Tianyu and Ji, Bo and Wang, Shouli and Yao, Shu and Wang, Zefan and Cui, Ganqu and Yuan, Lifan and Ding, Ning and Yao, Yuan and Liu, Zhiyuan and others},
+  journal={arXiv preprint arXiv:2506.18254},
+  year={2025}
 }
-
-@article{hu2019strategies,
-  title={Strategies for pre-training graph neural networks},
-  author={Hu, Weihua and Liu, Bowen and Gomes, Joseph and Zitnik, Marinka and Liang, Percy and Pande, Vijay and Leskovec, Jure},
-  journal={arXiv preprint arXiv:1905.12265},
-  year={2019}
+@article{ma2025general,
+  title={General-reasoner: Advancing llm reasoning across all domains},
+  author={Ma, Xueguang and Liu, Qian and Jiang, Dongfu and Zhang, Ge and Ma, Zejun and Chen, Wenhu},
+  journal={arXiv preprint arXiv:2505.14652},
+  year={2025}
 }
-
-@article{kipf2016variational,
-  title={Variational graph auto-encoders},
-  author={Kipf, Thomas N and Welling, Max},
-  journal={arXiv preprint arXiv:1611.07308},
-  year={2016}
+@misc{openai2025gpt41,
+  author = {OpenAI},
+  title = {Introducing GPT-4.1 in the API},
+  year = {2025},
+  month = {April},
+  note = {Accessed: 2025-06-03},
 }
-
-@article{feng2024taglas,
-  title={TAGLAS: An atlas of text-attributed graph datasets in the era of large graph and language models},
-  author={Feng, Jiarui and Liu, Hao and Kong, Lecheng and Zhu, Mingfang and Chen, Yixin and Zhang, Muhan},
-  journal={arXiv preprint arXiv:2406.14683},
+@article{wang2024mmlu,
+  title={Mmlu-pro: A more robust and challenging multi-task language understanding benchmark},
+  author={Wang, Yubo and Ma, Xueguang and Zhang, Ge and Ni, Yuansheng and Chandra, Abhranil and Guo, Shiguang and Ren, Weiming and Arulraj, Aaran and He, Xuan and Jiang, Ziyan and others},
+  journal={NeurIPS},
   year={2024}
 }
+@inproceedings{rein2024gpqa,
+  title={Gpqa: A graduate-level google-proof q\&a benchmark},
+  author={Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R},
+  booktitle={First Conference on Language Modeling},
+  year={2024}
+}
+@article{du2025supergpqa,
+  title={Supergpqa: Scaling llm evaluation across 285 graduate disciplines},
+  author={Du, Xinrun and Yao, Yifan and Ma, Kaijing and Wang, Bingli and Zheng, Tianyu and Zhu, King and Liu, Minghao and Liang, Yiming and Jin, Xiaolong and Wei, Zhenlin and others},
+  journal={arXiv preprint arXiv:2502.14739},
+  year={2025}
+}
+@inproceedings{hendrycks2measuring,
+  title={Measuring Mathematical Problem Solving With the MATH Dataset},
+  author={Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob},
+  booktitle={NeruIPS},
+  year={2021}
+}
+@article{zhou2025reinforcing,
+  title={Reinforcing General Reasoning without Verifiers},
+  author={Zhou, Xiangxin and Liu, Zichen and Sims, Anya and Wang, Haonan and Pang, Tianyu and Li, Chongxuan and Wang, Liang and Lin, Min and Du, Chao},
+  journal={arXiv preprint arXiv:2505.21493},
+  year={2025}
+}
+@inproceedings{sheng2025hybridflow,
+  title={Hybridflow: A flexible and efficient rlhf framework},
+  author={Sheng, Guangming and Zhang, Chi and Ye, Zilingfeng and Wu, Xibin and Zhang, Wang and Zhang, Ru and Peng, Yanghua and Lin, Haibin and Wu, Chuan},
+  booktitle={ECCS},
+  year={2025}
+}
+@article{shao2024deepseekmath,
+  title={Deepseekmath: Pushing the limits of mathematical reasoning in open language models},
+  author={Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Yang and others},
+  journal={arXiv preprint arXiv:2402.03300},
+  year={2024}
+}
+@article{liu2025understanding,
+  title={Understanding r1-zero-like training: A critical perspective},
+  author={Liu, Zichen and Chen, Changyu and Li, Wenjun and Qi, Penghui and Pang, Tianyu and Du, Chao and Lee, Wee Sun and Lin, Min},
+  journal={arXiv preprint arXiv:2503.20783},
+  year={2025}
+}
+@article{hu2025open,
+  title={Open-reasoner-zero: An open source approach to scaling up reinforcement learning on the base model},
+  author={Hu, Jingcheng and Zhang, Yinmin and Han, Qi and Jiang, Daxin and Zhang, Xiangyu and Shum, Heung-Yeung},
+  journal={arXiv preprint arXiv:2503.24290},
+  year={2025}
+}
+@article{guo2025deepseek,
+  title={Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning},
+  author={Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others},
+  journal={arXiv preprint arXiv:2501.12948},
+  year={2025}
+}
+@article{bradley1997use,
+  title={The use of the area under the ROC curve in the evaluation of machine learning algorithms},
+  author={Bradley, Andrew P},
+  journal={Pattern recognition},
+  volume={30},
+  number={7},
+  pages={1145--1159},
+  year={1997},
+  publisher={Elsevier}
+}
+@article{yu2025dapo,
+  title={Dapo: An open-source llm reinforcement learning system at scale},
+  author={Yu, Qiying and Zhang, Zheng and Zhu, Ruofei and Yuan, Yufeng and Zuo, Xiaochen and Yue, Yu and Dai, Weinan and Fan, Tiantian and Liu, Gaohong and Liu, Lingjun and others},
+  journal={arXiv preprint arXiv:2503.14476},
+  year={2025}
+}
+@article{zheng2025group,
+  title={Group sequence policy optimization},
+  author={Zheng, Chujie and Liu, Shixuan and Li, Mingze and Chen, Xiong-Hui and Yu, Bowen and Gao, Chang and Dang, Kai and Liu, Yuqiong and Men, Rui and Yang, An and others},
+  journal={arXiv preprint arXiv:2507.18071},
+  year={2025}
+}
+@article{ichihara2025mo,
+  title={MO-GRPO: Mitigating Reward Hacking of Group Relative Policy Optimization on Multi-Objective Problems},
+  author={Ichihara, Yuki and Jinnai, Yuu and Morimura, Tetsuro and Sakamoto, Mitsuki and Mitsuhashi, Ryota and Uchibe, Eiji},
+  journal={arXiv preprint arXiv:2509.22047},
+  year={2025}
+}
+@article{sullivan2025grpo,
+  title={GRPO is Secretly a Process Reward Model},
+  author={Sullivan, Michael},
+  journal={arXiv preprint arXiv:2509.21154},
+  year={2025}
+}
+@article{team2024gemma,
+  title={Gemma 2: Improving open language models at a practical size},
+  author={Team, Gemma and Riviere, Morgane and Pathak, Shreya and Sessa, Pier Giuseppe and Hardin, Cassidy and Bhupatiraju, Surya and Hussenot, L{\'e}onard and Mesnard, Thomas and Shahriari, Bobak and Ram{\'e}, Alexandre and others},
+  journal={arXiv preprint arXiv:2408.00118},
+  year={2024}
+}
+@article{jiang2024survey,
+  title={A survey on human preference learning for large language models},
+  author={Jiang, Ruili and Chen, Kehai and Bai, Xuefeng and He, Zhixuan and Li, Juntao and Yang, Muyun and Zhao, Tiejun and Nie, Liqiang and Zhang, Min},
+  journal={arXiv preprint arXiv:2406.11191},
+  year={2024}
+}
+@article{cheng2024fullstack,
+  title={FullStack Bench: Evaluating LLMs as Full Stack Coders},
+  author={Cheng, Yao and Chen, Jianfeng and Chen, Jie and Chen, Li and Chen, Liyu and Chen, Wentao and Chen, Zhengyu and Geng, Shijie and Li, Aoyan and Li, Bo and others},
+  journal={arXiv preprint arXiv:2412.00535},
+  year={2024}
+}
+@article{cui2025process,
+  title={Process reinforcement through implicit rewards},
+  author={Cui, Ganqu and Yuan, Lifan and Wang, Zefan and Wang, Hanbin and Zhang, Yuchen and Chen, Jiacheng and Li, Wendi and He, Bingxiang and Fan, Yuchen and Yu, Tianyu and others},
+  journal={arXiv preprint arXiv:2502.01456},
+  year={2025}
+}
+@article{su2025crossing,
+  title={Crossing the Reward Bridge: Expanding RL with Verifiable Rewards Across Diverse Domains},
+  author={Su, Yi and Yu, Dian and Song, Linfeng and Li, Juntao and Mi, Haitao and Tu, Zhaopeng and Zhang, Min and Yu, Dong},
+  journal={arXiv preprint arXiv:2503.23829},
+  year={2025}
+}
+@article{akter2025nemotron,
+  title={Nemotron-crossthink: Scaling self-learning beyond math reasoning},
+  author={Akter, Syeda Nahida and Prabhumoye, Shrimai and Novikov, Matvei and Han, Seungju and Lin, Ying and Bakhturina, Evelina and Nyberg, Eric and Choi, Yejin and Patwary, Mostofa and Shoeybi, Mohammad and others},
+  journal={arXiv preprint arXiv:2504.13941},
+  year={2025}
+}
+
+@article{du2025latent,
+  title={Latent Thinking Optimization: Your Latent Reasoning Language Model Secretly Encodes Reward Signals in Its Latent Thoughts},
+  author={Du, Hanwen and Dong, Yuxin and Ning, Xia},
+  journal={arXiv preprint arXiv:2509.26314},
+  year={2025}
+}
+@inproceedings{zhanglanguage,
+  title={Language Ranker: A Lightweight Ranking framework for LLM Decoding},
+  author={Zhang, Chenheng and Du, Tianqi and Zhang, Jizhe and Xiao, Mingqing and Wang, Yifei and Wang, Yisen and Lin, Zhouchen},
+  booktitle={NeurIPS},
+year={2025}
+}
+@inproceedings{burnsdiscovering,
+  title={Discovering Latent Knowledge in Language Models Without Supervision},
+  author={Burns, Collin and Ye, Haotian and Klein, Dan and Steinhardt, Jacob},
+  booktitle={ICLR},
+year={2023}
+}
+@article{du2025latent,
+  title={Latent thinking optimization: Your latent reasoning language model secretly encodes reward signals in its latent thoughts},
+  author={Du, Hanwen and Dong, Yuxin and Ning, Xia},
+  journal={arXiv preprint arXiv:2509.26314},
+  year={2025}
+}
+@inproceedings{ferrandoknow,
+  title={Do I Know This Entity? Knowledge Awareness and Hallucinations in Language Models},
+  author={Ferrando, Javier and Obeso, Oscar Balcells and Rajamanoharan, Senthooran and Nanda, Neel},
+  booktitle={ICLR},
+  year={2025}
+}
+@article{meng2022locating,
+  title={Locating and editing factual associations in gpt},
+  author={Meng, Kevin and Bau, David and Andonian, Alex and Belinkov, Yonatan},
+  journal={NeurIPS},
+  volume={35},
+  pages={17359--17372},
+  year={2022}
+}
+@inproceedings{fang2025alphaedit,
+  title={Alphaedit: Null-space constrained model editing for language models},
+  author={Fang, Junfeng and Jiang, Houcheng and Wang, Kun and Ma, Yunshan and Shi, Jie and Wang, Xiang and He, Xiangnan and Chua, Tat-Seng},
+  booktitle={ICLR},
+  year={2025}
+}
+@article{barez2025open,
+  title={Open problems in machine unlearning for ai safety},
+  author={Barez, Fazl and Fu, Tingchen and Prabhu, Ameya and Casper, Stephen and Sanyal, Amartya and Bibi, Adel and O'Gara, Aidan and Kirk, Robert and Bucknall, Ben and Fist, Tim and others},
+  journal={arXiv preprint arXiv:2501.04952},
+  year={2025}
+}
+@inproceedings{zhou2024alignment,
+  title={How Alignment and Jailbreak Work: Explain LLM Safety through Intermediate Hidden States},
+  author={Zhou, Zhenhong and Yu, Haiyang and Zhang, Xinghua and Xu, Rongwu and Huang, Fei and Li, Yongbin},
+  booktitle={EMNLP},
+  year={2024}
+}
+@inproceedings{dasgupta2025improving,
+  title={Improving language model distillation through hidden state matching},
+  author={Dasgupta, Sayantan and Cohn, Trevor},
+  booktitle={ICLR},
+  year={2025}
+}
+@inproceedings{wanglatent,
+  title={Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation},
+  author={Wang, Yiming and Zhang, Pei and Yang, Baosong and Wong, Derek F and Wang, Rui},
+  booktitle={ICLR},
+year={2025}
+}
+@article{guo2025reward,
+  title={Reward Inside the Model: A Lightweight Hidden-State Reward Model for LLM's Best-of-N sampling},
+  author={Guo, Jizhou and Wu, Zhaomin and Yu, Philip S},
+  journal={arXiv preprint arXiv:2505.12225},
+  year={2025}
+}
+
+@inproceedings{zhanglanguage,
+  title={Language Ranker: A Lightweight Ranking framework for LLM Decoding},
+  author={Zhang, Chenheng and Du, Tianqi and Zhang, Jizhe and Xiao, Mingqing and Wang, Yifei and Wang, Yisen and Lin, Zhouchen},
+  booktitle={NeurIPS},
+year={2025}
+}
+
+@article{qian2025fino1,
+  title={Fino1: On the Transferability of Reasoning-Enhanced LLMs and Reinforcement Learning to Finance},
+  author={Qian, Lingfei and Zhou, Weipeng and Wang, Yan and Peng, Xueqing and Yi, Han and Zhao, Yilun and Huang, Jimin and Xie, Qianqian and Nie, Jian-yun},
+  journal={arXiv preprint arXiv:2502.08127},
+  year={2025}
+}
+@article{ke2025demystifying,
+  title={Demystifying domain-adaptive post-training for financial llms},
+  author={Ke, Zixuan and Ming, Yifei and Nguyen, Xuan-Phi and Xiong, Caiming and Joty, Shafiq},
+  journal={arXiv preprint arXiv:2501.04961},
+  year={2025}
+}
+@article{yang2025qwen3,
+  title={Qwen3 technical report},
+  author={Yang, An and Li, Anfeng and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Gao, Chang and Huang, Chengen and Lv, Chenxu and others},
+  journal={arXiv preprint arXiv:2505.09388},
+  year={2025}
+}
+@article{grattafiori2024llama,
+  title={The llama 3 herd of models},
+  author={Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others},
+  journal={arXiv preprint arXiv:2407.21783},
+  year={2024}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
