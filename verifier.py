@@ -33,7 +33,7 @@ def get_journal(entry: dict) -> str:
     for field in journal_fields:
         if field in entry:
             return entry[field].strip().lower(), entry[field]
-    return ''
+    return '', ''
 
 def abbreviate(name: str) -> str:
     parts = name.strip().split()
